@@ -1,0 +1,60 @@
+html {
+  font-family: 'Mukta Vaani', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 300;
+  margin: 0;
+  word-spacing: 0.1em;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: 200;
+  margin: 0.5em;
+}
+
+a {
+  color: black;
+}
+
+ol {
+  font-size: 1.3em;
+  margin: 1em;
+  text-decoration-color: black;
+  font-weight: 200;
+}
+
+.massImage {
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.todoistDownloadTemplate span {
+    border: 1px solid black;
+    padding: 1rem;
+    line-height: 3.5em;
+}

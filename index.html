@@ -5,44 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Mukta+Vaani:400,300,200' rel='stylesheet' type='text/css'>
+    <link href="main.css" rel="stylesheet" type="text/css">
     <title>Chloe Lechel</title>
 
     <style>
-      html {
-        font-family: 'Source Sans Pro', sans-serif;
-        margin-left: 15%;
-        margin-right: 15%;
-      }
-
-      body {
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 4em;
-        margin: 0;
-      }
-
-      h2 {
-        font-size: 2.5em;
-        margin: 0;
-      }
-
-      h3 {
-        font-size: 1.75em;
-        margin: 0;
-      }
-
-      p {
-        font-size: 1.3em;
-        margin: 0.5em;
-      }
-
-      a {
-        color: black;
-      }
-
       #introText {
         margin-left: 12%;
         margin-right: 12%;
@@ -52,15 +19,38 @@
   </head>
 
   <body>
-    <h1><a href="index.html" style="text-decoration:none">Hi, I'm Chloe Lechel</a></h1>
-    <h3>Follow me? Okay? <a href="http://www.twitter.com/chloelechel">Okay</a>.</h3>
+    <h1><a href="index.html" style="text-decoration:none">I'm Chloe Lechel</a></h1>
+    <h3>Teenager. Vegan. Summer vibes. Hang loose :)</h3>
     <br />
-    <img src="profile.png" width="350px" />
-    <br />
+    <img src="profile.png" width="350px" class="massImage" />
     <br />
     <img src="downarrow.gif" width="3%" />
-    <h2>Hello.</h2>
-    <p id="introText">Watch through the camera aperture as I reach my fitness goals. As one of Jehovah's Witnesses I'm involved in a volunteer ministry to offer free personal Bible studies. Follow my journey and read on.</p>
+    <h2>
+    <script>
+      function greetingTimeChange() {
+          var currentTime = new Date().getHours();
+            if (0 <= currentTime&&currentTime < 5) {
+              document.write("Good night.");
+            }
+            if (5 <= currentTime&&currentTime < 12) {
+              document.write("Good morning.");
+            }
+            if (12 <= currentTime&&currentTime < 17) {
+              document.write("Good afternoon.");
+            }
+            if (17 <= currentTime&&currentTime < 22) {
+              document.write("Good evening.");
+            }
+            if (22 <= currentTime&&currentTime <= 24) {
+              document.write("Good night.");
+            }
+          }
+
+        greetingTimeChange();
+    </script></h2>
+    <noscript><link href="main.css" rel="stylesheet"></noscript>
+
+    <p id="introText">Watch through the camera aperture as I reach my fitness goals. As one of Jehovah's Witnesses I'm involved in a volunteer ministry to offer free personal Bible studies. <a href="http://www.twitter.com/chloelechel">Follow my journey</a> and read on.</p>
     <br />
     <h2>Recent Posts</h2>
     <hr>
