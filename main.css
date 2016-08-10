@@ -63,6 +63,10 @@ ol {
   display: inline-block;
 }
 
+.SocialIcons {
+  padding-top: 5%;
+}
+
 .smallCredit {
   font-size: 1em;
 }
