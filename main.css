@@ -1,5 +1,5 @@
 html {
-  font-family: 'Mukta Vaani', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -7,14 +7,19 @@ html {
 body {
   text-align: center;
   margin: 0;
-  max-width: 100%
+  max-width: 100%;
+}
+
+hr {
+  max-width: 65%;
 }
 
 h1 {
   font-size: 4em;
   font-weight: 300;
   margin: 0;
-  line-height: 150%;
+  margin-top: 0.15em;
+  line-height: 125%;
 }
 
 h2 {
@@ -63,10 +68,6 @@ ol {
   padding-bottom: 0.5rem;
   line-height: 3.5em;
   display: inline-block;
-}
-
-.SocialIcons {
-  padding-top: 5%;
 }
 
 .smallCredit {
