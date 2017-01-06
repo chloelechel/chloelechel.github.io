@@ -7,7 +7,7 @@ html {
 body {
   text-align: center;
   margin: 0;
-  max-width: 100%;
+  max-width: 100%
 }
 
 hr {
@@ -35,6 +35,13 @@ h3 {
   word-spacing: 0.1em;
 }
 
+h6 {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin: 0;
+  word-spacing: 0.1em;
+}
+
 p {
   font-size: 1.3em;
   font-weight: 200;
@@ -46,6 +53,13 @@ a {
 }
 
 ol {
+  font-size: 1.3em;
+  margin: 1em;
+  text-decoration-color: black;
+  font-weight: 200;
+}
+
+ul {
   font-size: 1.3em;
   margin: 1em;
   text-decoration-color: black;
