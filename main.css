@@ -74,7 +74,7 @@ ul {
   display: block;
 }
 
-.todoistDownloadTemplate span {
+.todoistDownloadTemplate span { 
   border: 1px solid black;
   padding-left: 1rem;
   padding-right: 1rem;
